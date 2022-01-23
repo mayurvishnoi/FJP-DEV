@@ -1,0 +1,72 @@
+/* Default Styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+    font-family: 400;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 2rem;
+}
+
+/* For Nav Bar Arrangement */
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    position: relative;
+    top: 1rem;
+    right: 2rem;
+    width: 50rem;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;;
+}
+
+/* For Web Development Image */
+.main_image{
+    width: 96vw;
+    height: 40vw;
+    margin: 1rem;
+}
+
+.container img{
+    height: 6rem;
+    /* width:40px; */
+}
+
+.container{
+    text-align:center;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+article{
+    display:flex;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: orange;
+}
+
+footer{
+    background-color: black;
+    height:4rem;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}

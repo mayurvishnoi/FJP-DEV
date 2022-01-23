@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* Element Selector */
+        h1{
+            color:red
+        }
+        p{
+            color:grey
+        }
+
+        /* Descendent Selector */
+        div ol{
+            color:blue;
+        }
+
+        /* Children Selector */
+        div h1 span{
+            color:blue;
+        }
+
+        /* Class Selector */
+        .class1{
+            color:green;
+        }
+
+        /* Selecting an element having multiple classes  */
+        .m1.m2{
+            color:blue;
+        }
+
+        /* ID Selector */
+        #one{
+            color:orange;
+        
+        }
+
+        /* Attribute Selector */
+        input[value="Select me"]{
+            color: blue;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello 1</h1>
+    <h1>Hello 2</h1>
+    <h2>Hello 3</h2>
+    <!-- Inline CSS -->
+    <h1 style="color: blue">Hello 4</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, sed?</p>
+
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ol>
+    <div>
+        <ol>
+            <li>Select</li>
+            <li>Me</li>
+        </ol>
+    </div>  
+
+
+    <div>
+        <h1><span>Span 1</span></h1>
+    </div>
+    <div>
+        <span>
+            <h1>Head 1</h1>
+        </span>
+    </div>
+
+
+    <!-- Class Selector -->
+    <h1 class="class1">Head 1</h1>
+    <h1 class="class1">Head 2</h1>
+    <h1>Head 3</h1>
+    <h1>Head 4</h1>
+    <h1>Head 5</h1>
+    <h1>Head 6</h1>
+
+    <div class="m1 m2">Select me</div>
+    <div class="m1">Yes</div>
+    <div class="m2">Yes Please</div>
+
+    <!-- ID Selector -->
+    <p id="one">Para 1</p>
+    <p id="two">Para 2</p>
+
+    <!-- Attribute Selector -->
+    <form action="">
+        <input type="button" value="Click Me"><input type="button" value="Select me">
+
+        
+    </form>
+</body>
+</html>
